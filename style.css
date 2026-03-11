@@ -49,24 +49,24 @@ body::-webkit-scrollbar {
     background: linear-gradient(150deg,rgb(255, 166, 0),rgb(147, 28, 18));
 }
 .hero h1{
-    font-size: 25px;
+    font-size: 22vw;
     color: white;
 }
 #fanta{
     position: absolute;
-    width: 40%;
+    width: 40vw;
     z-index: 2;
 }
 #orange-cortada{
     position: absolute;
-    width: 15%;
+    width: 15vw;
     top: 10%;
     left: 32%;
     z-index: 2;
 }
 #laranja{
     position: absolute;
-    width: 20%;
+    width: 20vw;
     z-index: 3;
     top: 55%;
     right: 30%;
@@ -74,14 +74,22 @@ body::-webkit-scrollbar {
 #folha{
     top: 10%;
     left: 0%;
-    width: 18%;
+    width: 18vw;
     transform: rotate(60deg);
+    position: absolute;
 }
-folha2{
-
+#folha2{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: rotate(-90deg);
+    width: 12vw;
 }
-.hero img{
-    width: 50px;
+#folha3{
+    position: absolute;
+    width: 20vw;
+    top: 10%;
+    right: 0%;
 }
 
 
