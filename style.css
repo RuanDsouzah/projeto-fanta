@@ -118,7 +118,7 @@ body::-webkit-scrollbar {
 .two{
     display: flex;
     width: 100%;
-    height: 100vw;
+    height: 55vw;
     background-color: #4d231c;
 }
 
@@ -162,6 +162,7 @@ body::-webkit-scrollbar {
     display: flex;
     background-color: white;
     align-items: center;
+    justify-content: center;
     width: 25vw;
     flex-direction: column;
     gap: 2vh;
@@ -177,19 +178,36 @@ body::-webkit-scrollbar {
     color: black;
     
 }
+
 .card button{
     font-size: 1vw;
     border-radius: 50px;
     border: none;
     background-color: rgb(255, 149, 0);
-}
-.card h3{
-    margin-top: 40vh;
-    font-size: 3vw;
-    color: black;
-
-}
-.three img{
-    width: 50px;
+    color: white;
+    padding: 1vw 2vw; 
 }
 
+#coca{
+    position: absolute;
+    top: -15%;
+    width: 85%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#pepsi{
+    position: absolute;
+    top: -15%;
+    width: 85%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.lemon{
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    width: 25vw;
+    transform: translate(-50%, 0%);
+}
