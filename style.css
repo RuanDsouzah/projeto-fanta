@@ -204,7 +204,7 @@ body::-webkit-scrollbar {
     transform: translate(-50%, 0%);
 }
 
-.lemon{
+.lemon1, .lemon2{
     position: absolute;
     top: -30%;
     left: 50%;
